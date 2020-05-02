@@ -1,14 +1,14 @@
 
-pkg update 
-pkg upgrade 
-pkg install python2 
-pkg install git
-pip2 install requests mechanize
-git clone https://github.com/Zaibii786/Oojaani
-cd Oojaani
-python2 Oojaani.py
-Username: Oojaani
-Passward: Oojaani
+apt update && apt upgrade -y
+
+apt install python2 -y
+apt install git -y
+pip2 install mechanize requests
+git clone https://github.com/Zaibii786/Jani
+cd jani
+python2 jani.py
+Username: jani
+Passward: jani
 
 IM NOT RESPONAIBLE FOR ANY MISSUSE
-Decode: Fariya Khan
+Decode: Baloch
